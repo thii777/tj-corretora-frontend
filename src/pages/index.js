@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Template from "../templates"
 
 export default function Home() {
   return (
@@ -10,9 +11,7 @@ export default function Home() {
       </Head>
 
       <main>
-        <h1>TJ CORRETORA</h1>
-
-        <div></div>
+        <Template/> 
       </main>
     </div>
   );
