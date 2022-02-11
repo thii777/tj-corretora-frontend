@@ -8,8 +8,19 @@ export const Container = styled.div`
     background: #3aa3e0;
 
     p {
-        margin: 0;
-        padding: 10px;
+      margin: 0;
+      padding: 10px;
+
+      font-size: 14px;
+    }
+  }
+
+  @media only screen and (min-width: 1px) and(max-width: 840px) {
+    background: red;
+
+    .p {
+      color: red;
+      font-size: 7px;
     }
   }
 `;
