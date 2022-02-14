@@ -1,4 +1,4 @@
-module.exports = withCSS({
+module.exports = {
   reactStrictMode: true,
 
   postcssLoaderOptions: {
@@ -21,4 +21,4 @@ module.exports = withCSS({
       postCssColorMod,
     ],
   },
-})
+}
